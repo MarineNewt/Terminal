@@ -73,7 +73,7 @@ export default function Home() {
   return (
     <div style={{backgroundColor: "black"}} className={styles.container}>
       <Head>
-        <title>Newt Files</title>
+        <title>Who am I?</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.introimgcontainer}>        
