@@ -11,12 +11,14 @@ let sociallist = [
 ]
 let projectlist = [
 ["Newt9.art", "https://www.newt9.com/"],
+["Seattle Adv", "https://explore-seattle.vercel.app/"],
 ["Web business", "https://web-business-peach.vercel.app/"],
 ["Blind gomoku", "https://gomoku-pvec.onrender.com/"],
 ]
 let interestlist = [
 ["Memory Palace", "https://youtu.be/PIbz_gKw0XY?si=Y6kd3g5ZMaELxjiY"],
 ["Game Theory", "https://youtu.be/mScpHTIi-kM"],
+["Strudel.CC", "https://strudel.cc/"],
 ]
 let etclist = [
 ["open individualism", "https://en.wikipedia.org/wiki/Open_individualism"],
