@@ -89,7 +89,7 @@ export default function Home() {
       </div>
       <div className={styles.introframe}>
         <h2 className={styles.introheading}>Who in the world am I? <br></br>Ah, that's the great puzzle.</h2>
-        <p className={styles.introcomments}>This is a collective of my socials, projects, and interests. This website is transient and the types of links shared here will evolve along with my interests. If you are in the pursuit of anything similiar to what is showcased here please don't hesitate to reach out to me regarding any explored topics, I love sharing my thoughts and perspectives.</p>
+        {/* <p className={styles.introcomments}>This is a collective of my socials, projects, and interests. This website is transient and the types of links shared here will evolve along with my interests. If you are in the pursuit of anything similiar to what is showcased here please don't hesitate to reach out to me regarding any explored topics, I love sharing my thoughts and perspectives.</p> */}
       </div>
       <main className={[styles.main]}>
         <div className={styles.wordframe}><p className={styles.nonlinktext} style={{color: 'blue'}} >SOCIALS</p></div>
