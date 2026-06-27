@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Image from 'next/image';
 
 let sociallist = [
@@ -21,8 +21,9 @@ let interestlist = [
 ]
 let etclist = [
 ["Just Exist", "https://youtu.be/AZkjFXQnPdg?si=3xCEw3Trde-2Ev5S"],
-["open individualism", "https://en.wikipedia.org/wiki/Open_individualism"],
+["open individualism", "/inter/openindividualism"],
 ]
+// ["open individualism", "https://en.wikipedia.org/wiki/Open_individualism"],
 
 const leetMap = {
   'A': '4',

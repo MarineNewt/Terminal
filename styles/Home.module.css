@@ -104,8 +104,49 @@
   white-space: nowrap;
   margin: 0;
 }
-.linktext:hover{
 
+/* Content Pages */
+.contentheading{
+  will-change: transform;
+  font-size: 2.5rem;
+  color:#FFFFFF;
+  font-style: italic;
+  margin-top: 20vh;
+  width: 80%;
+  margin-bottom: 5vh;
+  z-index: 1;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-timing-function: ease-in;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+.contentbody{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20vh;
+}
+.contenttext{
+  will-change: transform;
+  font-size: 1.2rem;
+  color:#FFFFFF;
+  opacity: 0;
+  width: 50%;
+  text-align: left;
+  z-index: 1;
+  animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-timing-function: ease-in;
+}
+.contentheader{
+  margin-bottom: 0;
+  font-style: italic;
 }
 
 
@@ -136,6 +177,20 @@
 .introcomments{
   width: 95%;
   font-size: .9rem;
+}
+/* Content Pages */
+.contentheading{
+  font-size: 2rem;
+  margin-top: 10vh;
+  width: 80%;
+  margin-bottom: 4vh;
+}
+.contentbody{
+  margin-bottom: 10vh;
+}
+.contenttext{
+  font-size: 1.2rem;
+  width: 90%;
 }
 }
 
